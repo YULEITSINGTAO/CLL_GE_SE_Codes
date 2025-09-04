@@ -5,9 +5,11 @@
 
 ## Overview
 
-This repository contains R scripts for predicting IGHV mutation status in chronic lymphocytic leukemia (CLL) patients using machine learning approaches and evaluating the clinical utility of these predictions for survival risk stratification.
+This repository contains R scripts for predicting IGHV mutation status in chronic lymphocytic leukemia (CLL) patients using machine learning approaches and evaluating the clinical utility of these predictions for survival risk stratification. Code part for manuscript: **Integration of Gene Expression and Alternative Splicing Enhances IGHV Mutation Status and Survival Risk Prediction in Chronic Lymphocytic Leukemia**
 
+## Workflow
 
+![Workflow of Gene Expression and Splicing Event Integration Study](./figures/workflow/workflow.png)
 
 ## Key Features
 
@@ -21,16 +23,16 @@ This repository contains R scripts for predicting IGHV mutation status in chroni
 
 ```
 ├── scripts/
-│   ├── 01_train_ighv_prediction_models.R    # Model training and feature selection
-│   └── 02_ighv_risk_stratification_survival.R    # Validation and survival analysis
-├── data/                                     # Input data files (see Data Requirements)
-├── results/                                  # Output files and model objects
-│   ├── predictions/                          # Prediction tables for all cohorts
-│   ├── cutoff_optimization/                  # Optimal cutoffs and performance metrics
-│   └── selected_features.rds                # Lists of selected features per model
-├── figures/                                  # Generated plots and visualizations
-│   └── survival_analysis/                    # Kaplan-Meier curves and cutoff plots
-└── README.md                                # This file
+│   ├── 01_train_ighv_prediction_models.R          # Model training and feature selection
+│   └── 02_ighv_risk_stratification_survival.R     # Validation and survival analysis
+├── data/                                          # Input data files (see Data Requirements)
+├── results/                                       # Output files and model objects
+│   ├── predictions/                               # Prediction tables for all cohorts
+│   ├── cutoff_optimization/                       # Optimal cutoffs and performance metrics
+│   └── selected_features.rds                      # Lists of selected features per model
+├── figures/                                       # Generated plots and visualizations
+│   └── survival_analysis/                         # Kaplan-Meier curves and cutoff plots
+└── README.md                                
 ```
 
 ## Methodology
