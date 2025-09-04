@@ -156,7 +156,7 @@ source("scripts/02_ighv_risk_stratification_survival.R")
 When using this code, please cite:
 
 ```
-[Your paper citation will go here]
+**TBD**
 ```
 
 ### Getting Help
@@ -180,18 +180,11 @@ We welcome contributions! Please:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
-
-- **Data source**: [Acknowledge your data source/consortium]
-- **Funding**: [List funding sources]
-- **Contributors**: [List additional contributors]
-
 ## Contact
 
 - **Author**: Lei Yu
 - **Email**: lei.yu@email.ucr.edu 
-- **Institution**: 1. Genetics, Genomics and Bioinformatics, 2. Department of Botany & Plant Sciences, UC Riverside
- Program University of California, Riverside
+- **Institution**: 1. Genetics, Genomics and Bioinformatics Program, 2. Department of Botany & Plant Sciences, University of California, Riverside
 - **Lab/Group**: [Dr. Zhenyu Jia Lab @ UC, Riverside](https://jialab.ucr.edu/people) & [Dr. Lili Wang Lab @ City of Hope](https://www.cityofhope.org/research/find-a-scientist/lili-wang)
 
 
