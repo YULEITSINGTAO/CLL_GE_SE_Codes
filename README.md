@@ -1,4 +1,4 @@
-# CLL IGHV Mutation Status Prediction and Survival Analysis
+# Integration of Gene Expression and Alternative Splicing Enhances IGHV Mutation Status and Survival Risk Prediction in Chronic Lymphocytic Leukemia
 
 [![R](https://img.shields.io/badge/R-%3E%3D4.0.0-blue)](https://www.r-project.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -6,6 +6,8 @@
 ## Overview
 
 This repository contains R scripts for predicting IGHV mutation status in chronic lymphocytic leukemia (CLL) patients using machine learning approaches and evaluating the clinical utility of these predictions for survival risk stratification.
+
+
 
 ## Key Features
 
@@ -92,12 +94,6 @@ install.packages(c("ggvenn", "data.table", "ggplot2", "tidyverse", "reshape2"))
 install.packages(c("survcomp", "ggsurvfit", "plotROC"))
 ```
 
-### Installation from GitHub
-```bash
-git clone https://github.com/your-username/cll-ighv-prediction.git
-cd cll-ighv-prediction
-```
-
 ## Usage
 
 ### Quick Start
@@ -161,29 +157,6 @@ When using this code, please cite:
 [Your paper citation will go here]
 ```
 
-## System Requirements
-
-- **Operating System**: Windows, macOS, or Linux
-- **Memory**: Minimum 8GB RAM recommended
-- **Disk Space**: ~2GB for data and results
-- **Runtime**: Approximately 10-30 minutes depending on data size
-
-## Troubleshooting
-
-### Common Issues
-
-**Error: "Sample names do not match"**
-- Ensure all feature matrices and clinical data have identical sample identifiers
-- Check that row names are properly aligned across datasets
-
-**Memory errors during model training**
-- Consider reducing feature dimensions or using a machine with more RAM
-- Monitor memory usage during LASSO cross-validation
-
-**Missing data warnings**
-- Verify all required clinical variables are present and properly formatted
-- Check for missing values in survival time and event variables
-
 ### Getting Help
 
 1. **Check the Issues tab** for common problems and solutions
@@ -214,10 +187,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 
 - **Author**: Lei Yu
-- **Email**: [your.email@institution.edu]
-- **Institution**: [Your Institution]
-- **Lab/Group**: [Your Lab Name]
+- **Email**: lei.yu@email.ucr.edu 
+- **Institution**: 1. Genetics, Genomics and Bioinformatics, 2. Department of Botany & Plant Sciences, UC Riverside
+ Program University of California, Riverside
+- **Lab/Group**: [Dr. Zhenyu Jia Lab @ UC, Riverside](https://jialab.ucr.edu/people) & [Dr. Lili Wang Lab @ City of Hope](https://www.cityofhope.org/research/find-a-scientist/lili-wang)
+
 
 ---
-
-**Note**: This repository contains research code for academic purposes. Clinical decisions should not be based solely on these predictions without proper validation and expert clinical judgment.
